@@ -29,7 +29,8 @@ dg_dt <- D(expr = gt, name = 't')
 dg_dt
 ```
 
-```{r}
+```{r} 
+#make a new function
 dp <- expression(52 * p^2 + 3*p^3 - 10*p)
 
 dd_dp <- D(expr = dp, name='p')
